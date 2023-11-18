@@ -5,7 +5,7 @@ Content-Type: application/json
   "name": "simon",
   "username": "darksimon",
   "email": "simon@gmail.com",
-  "password": "123456789",
+  "password": "0123456789",
   "description": "Primeiro usuario gestão de vagas"
 }
 
