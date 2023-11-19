@@ -21,7 +21,7 @@ public class CandidateController {
   @PostMapping("/")
   public ResponseEntity<Object> create(@Valid @RequestBody CandidateEntity candidateEntity) {
     try {
-      var resultado = this.createCandidateUseCase.excute(candidateEntity);
+      var resultado = this.createCandidateUseCase.execute(candidateEntity);
       return ResponseEntity.ok().body(resultado);
     } catch (Exception e) {
       return ResponseEntity.badRequest().body(e.getMessage());
