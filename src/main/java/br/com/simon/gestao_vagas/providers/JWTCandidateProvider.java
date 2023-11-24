@@ -10,6 +10,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 
 @Service
 public class JWTCandidateProvider {
+
   @Value("${security.token.secret.candidate}")
   private String secretKey;
 

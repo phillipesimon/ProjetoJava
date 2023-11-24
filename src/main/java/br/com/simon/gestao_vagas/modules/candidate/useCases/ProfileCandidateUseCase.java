@@ -14,7 +14,7 @@ import br.com.simon.gestao_vagas.modules.candidate.dto.ProfileCandidateResponseD
 public class ProfileCandidateUseCase {
 
   @Autowired
-  CandidateRepository candidateRepository;
+  private CandidateRepository candidateRepository;
 
   public ProfileCandidateResponseDTOBuilder execute(UUID idCandidate) {
 
